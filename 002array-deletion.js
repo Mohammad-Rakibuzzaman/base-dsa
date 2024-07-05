@@ -15,7 +15,7 @@ function findElement(arr, n, key) {
   
     if (pos == -1) {
       console.log("Element not found");
-    //   return n;
+      return n;
     }
   
     // Deleting element
